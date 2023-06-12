@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #683800;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inicio {
+  margin: 0;
+  padding: 0;
+  height: 650px;
+  width: 550px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#inicio .content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #C96C00;
+  background-color: #3d21004f;
+  border-radius: 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.content img{
+  background: none;
+  width: 400px;
+}
+
+.content h1 {
+  background: none;
+  font-family: sofia;
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+
+.content p {
+  background: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content .botao {
+  align-self: center;
+  padding: 12px 24px;
+  background-color: #3D2100;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.content .botao:hover {
+  background-color: #703c00;
+}
+
+.content img {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  #inicio {
+    width: 100%;
+    height: auto;
+  }
+  
+  #inicio .content {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .content img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banners .banners {
+    max-width: 1000px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+}
+
+.titulo {
+    font-family: sofia;
+    background-color: #3d210075;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#cabecalho {
+    display: flex;
+    text-align: center;
+}
+
+#cabecalho #logo{
+    width: 250px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+    list-style: none;
+    /* position: fixed; */
+}
+
+#cabecalho #menu a {
+    font-family: sofia;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 15%;
+    color:  #fff;
+    transition: all 0.1s linear;
+}
+
+#cabecalho #menu a:hover{
+    background-color: #a35700;
+ }
+
+#menu li {
+    margin: 20px;
+}
+
+#historia {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#historia h1{
+    font-family: sofia;
+    margin-bottom: 50px;
+}
+
+.gatohistoria {
+    float: left;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.gatohistoria2 {
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#historia h3{
+    font-size: 20px;
+}
+
+#historia p{
+    color: #ccc;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#raças {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#raças .raça{
+    border: solid 2px #3D2100;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 20px;
+}
+
+#raças h1{
+    background-color: #3d210075;
+    font-family: sofia;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+#raças h2{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#raças img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#raças h3{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+#raças h4{
+    font-size: 20px;
+}
+
+#raças p{
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+#raças .botao {
+    background-color: #3D2100;
+    display: block;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s linear;
+
+}
+
+#raças .botao:hover{
+    background-color:#5a3000;
+}
+
+
+#caracteristicas {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#caracteristicas .card{
+    border-bottom: solid 2px #3D2100;
+    padding: 100px;
+}
+
+#caracteristicas h1{
+    background-color: #3d210075;
+    font-family: sofia;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+#caracteristicas h2{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#caracteristicas img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#caracteristicas h3{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+#caracteristicas h4{
+    font-size: 20px;
+}
+
+#caracteristicas li{
+    text-align: justify;
+    color: #ccc;
+}
+
+#caracteristicas p{
+    text-align: justify;
+    margin-bottom: 15px;
+   color: #ccc;
+
+}
+
+#comportamento {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#comportamento .comp {
+    margin: 30px;
+    padding: 100px;
+    height: 600px;
+    box-sizing: border-box;
+    background-color: #3d2100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#comportamento h1 {
+    text-align: center;
+    background-color: #3d210075;
+    font-family: sofia;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+#comportamento .h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#comportamento h2 {
+    color: #CCC;
+    text-align: center;
+    background: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#comportamento h3 {
+    background: none;
+    text-align: center;
+}
+
+#comportamento h4 {
+    background: none;
+    text-align: center;
+}
+
+#comportamento p {
+    color: #ccc;
+    background: none;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#comportamento img {
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mitologia {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#mitologia h1{
+    text-align: center;
+    background-color: #3d210075;
+    font-family: sofia;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+#mitologia {
+    display: flex;
+}
+
+#mitologia .video {
+    float: left;
+    width: 600px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#gatosfamosos {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#gatosfamosos .card {
+    margin: 30px;
+    padding: 100px;
+    height: 600px;
+    border: solid 2px #3D2100;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gatosfamosos h1 {
+    text-align: center;
+    background-color: #3d210075;
+    font-family: sofia;
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+#gatosfamosos .h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#gatosfamosos h2 {
+    color: #CCC;
+    text-align: center;
+    background: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#gatosfamosos h3 {
+    background: none;
+    text-align: center;
+}
+
+#gatosfamosos h4 {
+    background: none;
+    text-align: center;
+}
+
+#gatosfamosos p {
+    color: #ccc;
+    background: none;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#gatosfamosos img {
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    margin-top: 100px;
+    background-color: #000000a4;
+    padding: 30px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}
+
+#rodape span{
+    background-color: #00000000;
+}
+
+#rodape a{
+    background-color: #00000000;
+    color: #06c;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
+
+
+
